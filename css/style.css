@@ -219,7 +219,7 @@ h6 {
   position: absolute;
   bottom: 48px;
   right: -45px;
-  z-index: 1;
+  z-index: 0;
   font-size: 0px;
   width: 13px;
   height: 20px;
@@ -228,10 +228,12 @@ h6 {
 .banner__content .slick-arrow.slick-prev {
   margin-right: 48px;
   background: url("/img/arrow-l.png") 0 0/100% no-repeat;
+  z-index: 1;
 }
 
 .banner__content .slick-arrow.slick-next {
-  background-color: red;
+  background: url("/img/arrow-r.png") 0 0/100% no-repeat;
+  z-index: 2;
 }
 
 .slider2 {
@@ -1475,5 +1477,7 @@ h6 {
 }
 
 .webp .banner__content .slick-arrow.slick-prev{ background: url(/img/arrow-l.webp) 0 0/100% no-repeat; }
+
+.webp .banner__content .slick-arrow.slick-next{ background: url(/img/arrow-r.webp) 0 0/100% no-repeat; }
 
 .webp .banner2__slider__info1, .webp .banner2__slider__info2{ background: url(/img/review.webp) 0 0/100% no-repeat; }
