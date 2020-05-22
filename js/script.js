@@ -23,57 +23,25 @@ document.querySelector('body').classList.add('no-webp');
 
 $(document).ready(function(){
 	$('.slider').slick({
-		arrows: true,       /* Нужность стрелок  */
-		// dots: false,        /* Точки навигации */
-		// adaptivHeight: false,        /* подстраивает высоту под высоту фотки */
-		// slidesToShow: 1,        /* кол-во слайдов на странице */
-		// slidesToScroll: 1,        /* колво пролистываемых */
+		arrows: true,
+		dots: false,
+		adaptivHeight: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
 		speed: 3000,
-		fade: true,        /* скорость пролистывания */
-		easing: 'linear',        /* Тип анимации */
-		infinite: true,        /* Будет ли бесконечное листание */
-		// initialSlide: 0,        /* С какого слайда стартует прокрутка */
-		autoplay: true,        /* Автопрокрутка */
-		autoplaySpeed: 8000,        /* Время пролистывания */
-		// pauseOnFocus: false,        /* Остановка прокрутки при действии */
-		// pauseOnHover: false,        /* Остановка прокрутки при действии */
-		// pauseOnDotsHover: false,        /* Остановка прокрутки при действии */
-		// draggable: false,        /* прокрутка на компе мышкой */
-		// swipe: true,        /* Прокрутка пальцем на телефоне */
-		// touchThreshold: 5,        /* расстояние движением пальца чтобы свайп сработал на телефоне */
-		// touchMove: true,        /* Все возможности тач скрина */
-		waitForAnimate: false,        /* ждать когда анимация закончится */
-		// centerMode: false,        /* Первый слайд по центру всегда */
-		// variableWidth: false,        /* Ширина между слайдами пропадет */
-		// rows: 1,        /* Ряды слайдера */
-		// slidesPerRow: 1,        /* колво слайдов в ряду */
-		// vertical: false,        /* Вертикальный слайд(сверху вниз) */
-		// verticalSwiping: false,        /* Вертикальная прокрутка для тач скрина */
-		//         /* показывает только одну картинку и заменяет плавно слайд на слайд (другая анимация) */
-		// /*asNavFor: ".slider2",        /* связывает два слайдера вместе*/
-		// centerMode: false,        /* Все возможности тач скрина */
-		/*responsive: [        /* адаптив для слайдеров */
-			/*{
-				breakpoint: 768,        /* указываем ширину экрана меньше чем */
-				/*settings: {
-					slidesToShow: 1,
-				}
-			},
-			{
-				breakpoint: 400,        /* указываем ширину экрана меньше чем */
-				/*settings: {        /* указываем новые свойства */
-					/*slidesToShow: 1,
-				}
-			}
-		],
-		mobileFirst: true        /* меняет брейкпоинты на больше чем */
-		appendArrows: $('.banner__content'),         /* перемещает стрелки в другой див
-		/*appendDots: $('.content'),         /* перемещает точки в другой див*/
-		responsive: [        /* адаптив для слайдеров */
+		fade: true,
+		easing: 'linear',
+		infinite: true,
+		initialSlide: 0,
+		autoplay: true,
+		autoplaySpeed: 8000,
+
+		appendArrows: $('.banner__content'),
+		responsive: [
 			{
 				breakpoint: 1023,
 				settings: {
-					arrows: false,
+				arrows: false,
 				}
 			}
 		],
@@ -86,15 +54,15 @@ if (window.innerWidth <= '1023'){
 					arrows: false,
 					slidesToShow: 1,
 					centerMode: true,
-					slidesToScroll: 1,        /* колво пролистываемых */
+					slidesToScroll: 1,
 					speed: 3000,
-					easing: 'linear',        /* Тип анимации */
-					infinite: true,        /* Будет ли бесконечное листание */
-					initialSlide: 0,        /* С какого слайда стартует прокрутка */
-					autoplay: true,        /* Автопрокрутка */
-					autoplaySpeed: 5000,        /* Время пролистывания */
-					pauseOnFocus: true,        /* Остановка прокрутки при действии */
-					pauseOnHover: true,        /* Остановка прокрутки при действии */
+					easing: 'linear',
+					infinite: true,
+					initialSlide: 0,
+					autoplay: true, 
+					autoplaySpeed: 5000,
+					pauseOnFocus: true,
+					pauseOnHover: true,
 					pauseOnDotsHover: true,
 					variableWidth: true,
 		});
@@ -112,15 +80,15 @@ if (window.innerWidth <= '1023'){
 					arrows: false,
 					slidesToShow: 1,
 					centerMode: true,
-					slidesToScroll: 1,        /* колво пролистываемых */
+					slidesToScroll: 1,
 					speed: 3000,
-					easing: 'linear',        /* Тип анимации */
-					infinite: true,        /* Будет ли бесконечное листание */
-					initialSlide: 0,        /* С какого слайда стартует прокрутка */
-					autoplay: true,        /* Автопрокрутка */
-					autoplaySpeed: 5000,        /* Время пролистывания */
-					pauseOnFocus: true,        /* Остановка прокрутки при действии */
-					pauseOnHover: true,        /* Остановка прокрутки при действии */
+					easing: 'linear',
+					infinite: true,
+					initialSlide: 0,
+					autoplay: true,
+					autoplaySpeed: 5000,
+					pauseOnFocus: true,
+					pauseOnHover: true,
 					pauseOnDotsHover: true,
 					variableWidth: true,
 		});
