@@ -227,8 +227,8 @@ h6 {
 
 .banner__content .slick-arrow.slick-prev {
   margin-right: 48px;
-  background: url("img/arrow-l.png") 0 0/100% no-repeat;
-  z-index: 1;
+  background: url("/img/arrow-l.png") 0 0/100% no-repeat;
+  z-index: 2;
 }
 
 .banner__content .slick-arrow.slick-next {
@@ -1476,7 +1476,7 @@ h6 {
   }
 }
 
-.webp .banner__content .slick-arrow.slick-prev{ background: url(img/arrow-l.webp) 0 0/100% no-repeat; }
+.webp .banner__content .slick-arrow.slick-prev{ background: url(/img/arrow-l.webp) 0 0/100% no-repeat; }
 
 .webp .banner__content .slick-arrow.slick-next{ background: url(/img/arrow-r.webp); }
 
