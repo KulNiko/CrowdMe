@@ -37,14 +37,14 @@ $(document).ready(function(){
 		autoplaySpeed: 8000,
 
 		appendArrows: $('.banner__content'),
-		// responsive: [
-		// 	{
-		// 		breakpoint: 1023,
-		// 		settings: {
-		// 		arrows: false,
-		// 		}
-		// 	}
-		// ],
+		responsive: [
+			{
+				breakpoint: 1023,
+				settings: {
+				arrows: false,
+				}
+			}
+		],
 	});
 });
 

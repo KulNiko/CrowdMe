@@ -219,7 +219,6 @@ h6 {
   position: absolute;
   bottom: 48px;
   right: -45px;
-  z-index: 0;
   font-size: 0px;
   width: 13px;
   height: 20px;
@@ -228,12 +227,10 @@ h6 {
 .banner__content .slick-arrow.slick-prev {
   margin-right: 48px;
   background: url("/img/arrow-l.png") 0 0/100% no-repeat;
-  z-index: 2;
 }
 
 .banner__content .slick-arrow.slick-next {
-  background: url("/img/arrow-r.png");
-  z-index: 2;
+  background: url("/img/arrow-r.png") 0 0/100% no-repeat;
 }
 
 .slider2 {
@@ -583,7 +580,7 @@ h6 {
 .banner__content {
   min-height: 570px;
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   top: 85px;
 }
 
@@ -1021,6 +1018,7 @@ h6 {
 .banner2__slider__info2 {
   width: 397px;
   height: 166px;
+  z-index: 10;
 }
 
 .banner2__slider__info1 h1,
@@ -1046,6 +1044,7 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   margin: 14px 0px 0px 50px;
+  z-index: 10;
 }
 
 .banner2__slider__person p {
@@ -1477,4 +1476,4 @@ h6 {
 
 .webp .banner__content .slick-arrow.slick-prev{ background: url(/img/arrow-l.webp) 0 0/100% no-repeat; }
 
-.webp .banner__content .slick-arrow.slick-next{ background: url(/img/arrow-r.webp); }
+.webp .banner__content .slick-arrow.slick-next{ background: url(/img/arrow-r.webp) 0 0/100% no-repeat; }
